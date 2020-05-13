@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+
+
+
+
+.encabezado{
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+}
+
+.clip{
+    width: 30%;
+    float: left;
+    margin-left: 1.6%;
+    margin-right: 1.6%;
+    margin-bottom: 20px;
+}
+
+.espacio{
+    clear:both;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.encabezado{
+    background: black;
+    color: #10E5E8;
+    text-align: center;
+    display: inline-table; /*elementos para centrar verticalmente*/
+    margin-bottom: 50px;
+}
+
+.encabezado p{
+    display: table-cell; 
+    vertical-align: middle; 
+    font-size: 64px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-weight: 650;
+}
+
+
+
+.contenedor{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.galeria{
+    background-color: grey;
+    width: 47%;
+    float: left;
+   margin-left: 1%;
+    margin-right: 1%;
+    height: 500px;
+    margin-bottom: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uno{
+    background-image: url("../../../Desktop/2/imagenes/album.jpg")
+}
+#dos{
+    background-image: url("../../../Desktop/2/imagenes/banda.jpg")
+}
+
+.mejor{
+    background-color:mediumvioletred;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+.mejor{
+    background: mediumvioletred;
+    color: white;
+    text-align: center;
+    display: inline-table; 
+    margin-top: 2%
+}
+
+.mejor p{
+    display: table-cell; 
+    vertical-align: middle; 
+    font-size: 64px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-weight: 650;
+}
+
+.videos{
+   
+    background:#10E5E8;
+    padding-top: 80px;
+    height: 500px;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.pie{
+    width: 100%;
+    height: 250px;
+    background: black;
+    color: #10E5E8;
+}
+
+.bloques1{
+    width: 69%;
+    padding: 3%;
+}
+
+.bloques2{
+    width: 25%;
+    font-size: 10px;
+}
+
+.bloques1, .bloques2{
+    float: left;
+    padding-top: 6%;
+}
+
